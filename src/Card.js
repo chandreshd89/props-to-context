@@ -3,7 +3,7 @@ import { UserContext } from "./UserContext";
 
 export default function Card() {
   const user = useContext(UserContext);
-
+  console.log(user.avatarURL);
   return (
     <div className="card">
       <div className="card-info">
